@@ -11,6 +11,6 @@ class Backer
 # which shovel backer objects into the @backers array.
   def back_project(project)
     @backed_projects << project
-    project.add_backer(self)
+    project.add_backer(self)  if
   end
 end
