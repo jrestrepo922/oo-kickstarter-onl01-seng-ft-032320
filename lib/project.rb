@@ -5,10 +5,7 @@ class Project
 
   def initialize(title)
     @title = title
-    @backers = [] #  [#<Backer:0x0000000001619198 @backed_projects=
-    #  [#<Project:0x00000000016190f8 @backers=[...],
-    #  @title="Magic The Gathering Thing">],
-  @name="Spencer">]
+    @backers = [] 
   end
 
   def add_backer(backer)
